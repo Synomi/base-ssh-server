@@ -9,7 +9,7 @@ A base Ubuntu 14.04 container with openssh-server installed.
 
 # starting container
 
-    docker run -d -p 8022:22 garland/ssh-base:v0.0.1
+    docker run -d -p 8022:22 garland/base-ssh-server
 
 # After container starts
 You can then ssh into it
